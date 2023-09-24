@@ -82,7 +82,7 @@ const AddProducts = ({ items, click, removeItem, setAddedItem }) => {
         <div className="right-side-footer">
           <div className="bar"></div>
           <div className="footer-head">
-            <h4>Total :</h4>
+            <h1>Total :</h1>
             <h1>${total}</h1>
           </div>
           <div className="check-out">

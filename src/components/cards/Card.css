@@ -1,6 +1,6 @@
 .card {
     /* border: 1px solid var(--softer-color); */
-    box-shadow: 1px 1px 5px var(--softer-color);
+    box-shadow: 1px 1px 5px var(--color-primary);
     padding: 1rem;
     border-radius: 0.5rem;
     transition: 0.3s;
@@ -10,17 +10,19 @@
   }
   
   .card__img {
-    width: 30%;
+    width: 90%;
   }
   .card p {
     color: var(--soft-color);
   }
   .card h4,
   p {
+    color: var(--color-primary);
     margin: 0.5rem auto;
   }
   .card h2 {
     text-decoration: underline;
+    color: var(--color-primary);
   }
   .card:hover {
     box-shadow: 0px 0px 10px var(--softer-color);
@@ -30,6 +32,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: var(--color-primary);
   }
   .add-item-btn,
   .remove-item-btn {

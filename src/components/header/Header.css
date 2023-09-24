@@ -5,15 +5,22 @@ header {
   }
   header .header__logo {
     width: 4rem;
-    animation: rotate 2s linear infinite;
+    animation: zoom-in-zoom-out 2s linear infinite;
   }
   
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
+  @keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
     }
-    to {
-      transform: rotate(360deg);
+    50% {
+      transform: scale(1.5, 1.5);
+    }
+    100% {
+      transform: scale(1, 1);
     }
   }
   
+  h1 {
+    font-size: 2rem;
+    color: var(--color-primary);
+  }

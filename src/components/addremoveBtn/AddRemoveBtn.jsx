@@ -14,7 +14,7 @@ export function AddRemoveBtn({
         setIsAdded(!isAdded);
       }}
     >
-      {isAdded ? "ADD " : "CANCEL"}
+      {isAdded ? "ADD " : "REMOVE"}
     </button>
   );
 }
