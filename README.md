@@ -17,3 +17,5 @@ npm run dev
 ```
 
 ---
+
+Deployed to https://fae-market-david-hetterly-2302-fsa.netlify.app/

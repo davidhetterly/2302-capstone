@@ -1,3 +1,8 @@
+h4 {
+  color: var(--color-primary);
+}
+
+
 .addproducts__container {
     height: 100vh;
     position: fixed;
